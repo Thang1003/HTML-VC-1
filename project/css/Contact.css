@@ -27,7 +27,7 @@ ul li{
 ul li a{
     text-transform: uppercase;
     text-decoration: none;
-    color:rgb(97, 88, 88);
+    color:rgb(7, 7, 7);
     font-weight: bold;
 }
 ul li a:hover{
@@ -35,8 +35,8 @@ ul li a:hover{
     cursor: pointer;
 }
 ul :hover{
-    background-color: rgb(32, 31, 31);
-    color: blue;
+    background-color:rgb(173, 3, 3);
+    color: white;
 }
 .main{
     display: flex;
@@ -58,6 +58,11 @@ ul :hover{
 }
 input{
 	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+#c1{
+    width: 100%;
 	padding: 10px;
 	margin-bottom: 10px;
 }
