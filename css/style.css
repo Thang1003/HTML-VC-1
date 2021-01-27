@@ -7,6 +7,14 @@
     margin: auto;
     background-color: rgb(240, 240, 250);
 }
+.header{
+    background-image: url('https://www.glassdoor.co.uk/blog/app/uploads/sites/3/resume-makeover-1024x450.jpg');
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+}
 nav{
     display: flex;
     justify-content: center;
@@ -40,45 +48,90 @@ ul :hover{
     color: white;
     
 }
-.main{
-    display: flex;
-    justify-content: center;
+.cover{
     margin-top: 30px;
-    margin-right: 40%;
+    width: 93%;
+    display: grid;
+    grid-template-columns: 30% 70%;
 }
-.head{
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
-    margin-right: -40%;
+.image{
+    border-radius: 50px;
+}
+.box_text{
+    margin-left: -60px;
+    font-weight: bold;
+    padding: 10px;
+    padding: 10px;
+	background: rgba(0,0,0,0.3);
+	line-height: 1.5;
+    opacity: 0.9;
+    
 }
 img{
-    width: 600px;
-    height: 60vh;
+    width: 300px;
+    border-radius: 5%;
 }
-.box-content{
+.icon{
+    margin-top: 40px;
     display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: rgb(28, 28, 70);
+    justify-content: center;
+    align-items: center;
 }
-.School-01,
-.School-02,
-.School-03,
-.School-04{
-    width: 45%;
+.logo{
+    width: 40px;
+    padding: 20px;
+}
+.youtube{
+    width: 55px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
     padding: 10px;
+    color: blue
 }
 
-#text-school{
-    color:rgb(31, 34, 241);
-    font-family: u;
+
+
+.box-body{
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 40px;
 }
-p{
-    color: white;
-    margin-left: 20px;
+.main-box{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 5px;
 }
+.box{
+    width: 49%;
+    height: 270px;
+    background-color: rgba(0,0,0,0.3);
+}
+h3{
+    display: flex;
+    justify-content: center;
+    color: rgb(194, 11, 11);
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.text{
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+th{
+    display: flex;
+    justify-content: flex-start;
+}
+tr,
+th,
+td {
+    padding: 10px;
+}  
 
 /* footer */
 .company-details{ 
@@ -113,3 +166,6 @@ p{
 	font-size: 0.90em; 
 	color: rgba(255, 255, 255, 0.6); 
 } 
+
+
+
