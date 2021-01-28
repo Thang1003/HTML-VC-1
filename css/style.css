@@ -19,24 +19,32 @@
 }
 
 .container .header nav{
-    display: flex;
-    justify-content: center;
-    position: sticky;
+    background-color: rgb(0,0,0,0.8);
+    justify-content: space-between;
+	display: flex;
+	position: sticky;
 	top: 0;
-    z-index: 99;
-    border-radius: 10px;
-    width: 50%;
-    margin-left: 35%;
+	z-index: 99;
 }
 
 .container .header nav ul{
     display: flex;
     list-style: none;
-    
+    margin-right: 100px;
+}
+
+.container .header nav ul .nav_name{
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+.container .header nav ul .home {
+    background: #c70039;
 }
 
 .container .header nav ul li{
     padding: 15px;
+
 }
 
 .container .header nav ul li a{
@@ -52,7 +60,7 @@
 } 
 
 .container .header nav ul :hover{
-    background-color:  rgb(173, 3, 3);
+    background-color:  #c70039;
     color: white;
     
 }
@@ -70,6 +78,7 @@
 .container .header .cover .main .image img{
     width: 300px;
     border-radius: 5%;
+    margin-left: 10px;
 }
 
 .container .header .cover .box_text{
@@ -81,22 +90,32 @@
     opacity: 0.9;
     color: white;
 }
+
 .container .header .cover .box_text .icon{
-    margin-top: 40px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 5%;
 }
-.container .header .cover .box_text .icon .logo{
-    width: 40px;
+.container .header .cover .box_text .icon >a >i{
+    padding: 10px;
+    font-size: 40px;
     padding: 20px;
 }
-.container .header .cover .box_text .icon .youtube{
-    width: 55px;
+
+.container .header .cover .box_text .icon #instagram{
+    color: #900c3f;
 }
-.container h1{
-    display: flex;
-    justify-content: center;
+.container .header .cover .box_text .icon #facebook{
+    color: #19456b;
+}
+.container .header .cover .box_text .icon #telegram{
+    color: #1687a7;
+}
+.container .header .cover .box_text .icon #youtube{
+    color: red;
+}
+.container h2{
+    text-align: center;
     text-transform: uppercase;
     padding: 10px;
     color: #0bb5f4;

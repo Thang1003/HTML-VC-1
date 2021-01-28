@@ -23,20 +23,27 @@
 }
 
 .container .header nav{
-    display: flex;
-    justify-content: center;
-    position: sticky;
+    background-color: rgb(0,0,0,0.8);
+    justify-content: space-between;
+	display: flex;
+	position: sticky;
 	top: 0;
-    z-index: 99;
-    border-radius: 10px;
-    width: 50%;
-    margin-left: 35%;
+	z-index: 99;
 }
 
 .container .header nav ul{
     display: flex;
     list-style: none;
-    
+    margin-right: 100px;
+}
+
+.container .header nav ul .nav_name{
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+.container .header nav ul .education {
+    background: #c70039;
 }
 
 .container .header nav ul li{
