@@ -3,19 +3,22 @@
     padding: 0;
     font-family: sans-serif;
 }
+
 .container{
     margin: auto;
     background-color: rgb(240, 240, 250);
 }
-.header{
+
+.container .header{
     background-image: url('https://www.glassdoor.co.uk/blog/app/uploads/sites/3/resume-makeover-1024x450.jpg');
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
-    text-transform: uppercase;
+    text-transform: none;
 }
-nav{
+
+.container .header nav{
     display: flex;
     justify-content: center;
     position: sticky;
@@ -25,111 +28,119 @@ nav{
     width: 50%;
     margin-left: 35%;
 }
-ul{
+
+.container .header nav ul{
     display: flex;
     list-style: none;
     
 }
-ul li{
+
+.container .header nav ul li{
     padding: 15px;
 }
-ul li a{
+
+.container .header nav ul li a{
     text-transform: uppercase;
     text-decoration: none;
     color:rgb(81, 111, 207);
     font-weight: bold;
 }
-ul li a:hover{
-	text-decoration: underline;
+
+.container .header nav ul li a:hover{
+	text-decoration: none;
 	cursor: pointer;
 } 
-ul :hover{
+
+.container .header nav ul :hover{
     background-color:  rgb(173, 3, 3);
     color: white;
     
 }
-.cover{
+
+.container .header .cover{
     margin-top: 30px;
     width: 93%;
     display: grid;
     grid-template-columns: 30% 70%;
 }
-.image{
+.container .header .cover .main .image{
     border-radius: 50px;
 }
-.box_text{
-    margin-left: -60px;
-    font-weight: bold;
-    padding: 10px;
-    padding: 10px;
-	background: rgba(0,0,0,0.3);
-	line-height: 1.5;
-    opacity: 0.9;
-    
-}
-img{
+
+.container .header .cover .main .image img{
     width: 300px;
     border-radius: 5%;
 }
-.icon{
+
+.container .header .cover .box_text{
+    font-size: 20px;
+    padding: 10px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 5px;
+	line-height: 1.5;
+    opacity: 0.9;
+    color: white;
+}
+.container .header .cover .box_text .icon{
     margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo{
+.container .header .cover .box_text .icon .logo{
     width: 40px;
     padding: 20px;
 }
-.youtube{
+.container .header .cover .box_text .icon .youtube{
     width: 55px;
 }
-h1{
+.container h1{
     display: flex;
     justify-content: center;
     text-transform: uppercase;
     padding: 10px;
-    color: blue
+    color: #0bb5f4;
 }
 
-
-
-.box-body{
+.container .box-body{
     width: 80%;
     margin: auto;
     flex-direction: column;
-    margin-bottom: 40px;
 }
-.main-box{
+
+.container .box-body .main-box{
     display: flex;
     justify-content: space-around;
     justify-items: center;
     margin-top: 5px;
 }
-.box{
+
+.container .box-body .main-box .box{
     width: 49%;
     height: 270px;
     background-color: rgba(0,0,0,0.3);
+    border-radius: 5px;
 }
-h3{
+
+.container .box-body .main-box .box h3{
     display: flex;
     justify-content: center;
     color: rgb(194, 11, 11);
     text-transform: uppercase;
     margin-top: 10px;
 }
-.text{
+
+.container .box-body .main-box .box .text{
     font-size: 15px;
     margin-left: 10px;
 
 }
-th{
+
+.container .box-body .main-box .box th{
     display: flex;
     justify-content: flex-start;
 }
-tr,
-th,
-td {
+.container .box-body .main-box .box tr, th, td {
     padding: 10px;
 }  
 
@@ -138,8 +149,10 @@ td {
 	overflow: hidden; 
 	padding: 1em 0em; 
 	background: #E3F0F7; 
-	text-align: center; 
-	margin-top: 5em; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 } 
 #footer #col1, 
 #footer #col2, 
@@ -156,7 +169,7 @@ td {
 .copyright 
 { 
 	overflow: hidden; 
-	padding: 3em 0em; 
+	padding: 2em 0em; 
 	border-top: 20px solid rgba(250, 242, 242, 0.08); 
 	text-align: center; 
 	background: #282b28; 
